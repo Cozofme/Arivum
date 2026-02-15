@@ -88,7 +88,7 @@ border: none;
 .nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: #0000001a;
+  color: #4e4e4ec3;
   display: flex;
   align-items: center;
   gap: 10px;
