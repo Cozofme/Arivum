@@ -109,6 +109,7 @@ function activateProfile(index, isClick = false) {
   // Show creator info
   document.getElementById('creatorName').textContent = creator.name;
   document.getElementById('creatorCourse').textContent = creator.course;
+  document.getElementById('creatorRoll').textContent = creator.roll;
 
   setTimeout(() => {
     info.classList.add('visible');
