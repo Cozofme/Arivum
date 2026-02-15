@@ -415,5 +415,149 @@
       "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
     ]
   }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "2",
+  "subject": "CC3",
+  "subjectname": "Data Structure with C",
+  "questions": {
+    "images": [
+      "images/Semester 2/CC3/CC3a.jpg",
+      "images/Semester 2/CC3/CC3b.jpg",
+      "images/Semester 2/CC3/CC3c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "2",
+  "subject": "CC4",
+  "subjectname": "Data Structure with C",
+  "questions": {
+    "images": [
+      "images/Semester 2/CC4/CC4a.jpg",
+      "images/Semester 2/CC4/CC4b.jpg",
+      "images/Semester 2/CC4/CC4c.jpg",
+      "images/Semester 2/CC4/CC4d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "2",
+  "subject": "GE2",
+  "subjectname": "Math",
+  "questions": {
+    "images": [
+      "images/Semester 2/GE2/GE2a.jpg",
+      "images/Semester 2/GE2/GE2b.jpg",
+      "images/Semester 2/GE2/GE2c.jpg",
+      "images/Semester 2/GE2/GE2d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "2",
+  "subject": "GE2",
+  "subjectname": "Physics",
+  "questions": {
+    "images": [
+      "images/Semester 2/GE2/GE2a.jpg",
+      "images/Semester 2/GE2/GE2b.jpg",
+      "images/Semester 2/GE2/GE2c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "6",
+  "subject": "CC13",
+  "subjectname": "AI and Android Programming ",
+  "questions": {
+    "images": [
+      "images/Semester 6/CC13/CC13a.jpg",
+      "images/Semester 6/CC13/CC13b.jpg",
+      "images/Semester 6/CC13/CC13c.jpg",
+      "images/Semester 6/CC13/CC13d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "6",
+  "subject": "CC14",
+  "subjectname": "Computer Graphics with Flash",
+  "questions": {
+    "images": [
+      "images/Semester 6/CC14/CC14a.jpg",
+      "images/Semester 6/CC14/CC14b.jpg",
+      "images/Semester 6/CC14/CC14c.jpg",
+      "images/Semester 6/CC14/CC14d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "6",
+  "subject": "DSE3",
+  "subjectname": "Cloud Computing",
+  "questions": {
+    "images": [
+      "images/Semester 6/DSE3/DSE3a.jpg",
+      "images/Semester 6/DSE3/DSE3b.jpg",
+      "images/Semester 6/DSE3/DSE3c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
 }
 ]
