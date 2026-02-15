@@ -1,31 +1,36 @@
 const creators = [
   {
     name: "Insha Kaynat",
-    course: "Advanced UI/UX Design",
+    course: "Bsc IT",
+    roll: "22BS62100374",
     color: "#FF6B6B",
     image: "images/A.png"
   },
   {
-    name: "Rehan Khan",
-    course: "Full-Stack Development",
+    name: "Rajesh Das",
+    course: "Bsc IT",
+    roll: "22BS62100374",
     color: "#4ECDC4",
     image: "images/B.png"
   },
   {
-    name: "Rajesh Das",
-    course: "Motion Graphics Mastery",
+    name: "Rehan Khan",
+    course: "Bsc IT",
+    roll: "22BS62100381",
     color: "#A78BFA",
     image: "images/C.png"
   },
   {
     name: "MD Rashif",
-    course: "Data Science Fundamentals",
+    course: "Bsc IT",
+    roll: "22BS62100361",
     color: "#F472B6",
     image: "images/D.png"
   },
   {
     name: "Amit Sharma",
-    course: "Mobile App Development",
+    course: "Bsc IT",
+    roll: "22BS62100324",
     color: "#60A5FA",
     image: "images/E.png"
   }
