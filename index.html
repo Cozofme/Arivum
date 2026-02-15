@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!-- Theme / PWA -->
+<meta name="theme-color" content="#4f46e5">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="StudyBuddy">
+<!-- Manifest -->
+<!-- SEO -->
+<meta name="description" content="StudyBuddy - A smart study companion built by students, for students. PYQs, important questions and more.">
+<meta name="keywords" content="StudyBuddy, student dashboard, PYQs, exam preparation, study app">
+<meta name="author" content="StudyBuddy Team">
+
+<!-- Open Graph (WhatsApp / Facebook) -->
+<meta property="og:title" content="StudyBuddy">
+<meta property="og:description" content="A smart study companion built by students, for students.">
+<meta property="og:image" content="/icons/icon-512.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://studybuddy.vercel.app">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="StudyBuddy">
+<meta name="twitter:description" content="A smart study companion built by students, for students.">
+<meta name="twitter:image" content="/icons/icon-512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <title>Arivum</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="logo"><img src="icons/IMG_20260212_232339.svg">ARIVUM</h1>
+  <button class="menu-btn" onclick="toggleMenu()"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+  <ul id="menu">
+    <li><a href="dashboard.html"><i class="fas fa-home"></i></i><span class="label">Home</span></a></li>
+    <li><a href="#profileDrawer" id="profileBtn"><i class="fas fa-user"></i><span class="label">Profile</span></a></li>
+    <li><a href="#about" id="aboutBtn"><i class="fas fa-info-circle"></i><span class="label">About</span></a></li>
+  </ul>
+  <span class="nav-underline"></span>
+</div>
+     <!-- main container -->
+     <div class="container">
+    <div class="welcome" id="welcome-text"></div>
+    <div class="date" id="date">Loading date...</div>
+
+    <div class="main-section">
+      <div style="flex:1;">
+        <div class="quote-box" id="quoteBox">
+          Loading quote...
+        </div>
+
+        <div class="grid">
+          <button style="display: none;">Notes</button>
+          <button id="Pyq"><i class="fas fa-book-open"></i>PYQs</button>
+          <button style="display: none;">recommended videos</button>
+          <button id="Que"><i class="fas fa-star"></i>Important questions</button>
+        </div>
+      </div>
+      <!-- To-Do Card -->
+      <div class="todo-card" role="region" aria-label="To-Do summary">
+        <h2>To Do List</h2>
+
+        <div class="progress-container">
+          <svg viewBox="0 0 36 36" class="circular-chart" aria-hidden="true">
+            <circle class="bg" cx="18" cy="18" r="15.915"></circle>
+            <circle class="progress" cx="18" cy="18" r="15.915" stroke-dasharray="100" stroke-dashoffset="0"></circle>
+            <text class="percent-text" x="18" y="18">0%</text>
+          </svg>
+
+          <div class="focus-text" id="focus-text">Today's Focus: Complete Assignment 2</div>
+        </div>
+
+        <div class="tasks" id="task-list"></div>
+        <div class="motivation-message" id="motivationMessage">
+  Let's get started 💪
+</div>
+        <div class="edit-icon">
+          <button id="edit-btn" title="Edit full list"><i class="fas fa-pen edit-btn"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- overlay / editor -->
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <div class="editor" role="dialog" aria-modal="true" aria-label="Edit To Do list">
+        <button class="close-btn" id="close-btn">✖</i></button>
+      <h2>Edit Your To-Do List</h2>
+      <input type="text" id="focus-edit" placeholder="Edit today's focus" />
+      <div id="task-container"></div>
+      <div class="add-task">
+        <input type="text" id="new-task" placeholder="Add new task" />
+        <button id="add-btn">Add</button>
+      </div>
+    </div>
+  </div>
+     </div>
+
+<section class="center-section">
+  <h2>Be the First to Know</h2>
+  <div class="centersection">
+  <p>
+    Don't miss out on what's coming next.
+    Join our WhatsApp channel and be the first to receive updates,
+    new features, tips, and surprises. One tap, and you're in our inner circle.
+  </p>
+
+  <div class="media">
+    <img src="/data/whatsapp.png" alt="center image">
+    <a href="https://whatsapp.com/channel/0029VbBUq3r47XeHXY7AQf0v" class="join-btn">Join WhatsApp Channel</a>
+  </div>
+  </div>
+</section>
+    
+<div class="review-marquee">
+  <div class="marquee-track" id="reviewTrack">
+  </div>
+</div>
+  
+     <!-- Auth Modal -->
+<div class="auth-overlay" id="authOverlay">
+  <div class="auth-box">
+
+    <h2 id="authTitle">Join your ARIVUM</h2>
+
+    <!-- Signup Fields -->
+    <div id="signupFields">
+      <input type="text" id="name" placeholder="Full Name">
+    </div>
+
+    <!-- Common -->
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <!-- Signup only -->
+    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+    <button id="authBtn" type="button">Sign Up</button>
+    <p class="toggle-text">
+      Already have an account?
+      <span id="toggleAuth">Login</span>
+    </p>
+    <p class="auth-note">
+      Your data is safely stored for personalization
+    </p>
+  </div>
+</div>
+  <!-- Profile Drawer -->
+<div class="profile-overlay" id="profileOverlay"></div>
+
+<aside class="profile-drawer" id="profileDrawer">
+  <button class="profile-close" id="profileClose">✕</button>
+
+  <!-- Profile Content (your section) -->
+  <section class="profile-section">
+
+    <div class="profile-header">
+      <div class="profile-avatar">👤</div>
+      <h2 id="profile-name">User Name</h2>
+      <p id="profile-email">user@email.com</p>
+    </div>
+
+    <div class="profile-details">
+      <div class="profile-item">
+        <span class="label">College</span>
+        <span class="value" id="profile-college"></span>
+      </div>
+      <div class="profile-item">
+        <span class="label">Course</span>
+        <span class="value" id="profile-course"></span>
+      </div>
+      <div class="profile-item">
+        <span class="label">Semester</span>
+        <span class="value" id="profile-semester"></span>
+      </div>
+      <div class="profile-item">
+        <span class="label">Session</span>
+        <span class="value" id="profile-session"></span>
+      </div>
+    </div>
+
+    <div class="profile-actions">
+      <button class="logout-btn" onclick="logoutUser()">Logout</button>
+      <button class="edit-profile-btn" id="editProfileBtn">Edit Profile</button>
+<button class="save-profile-btn hidden" id="saveProfileBtn">Save Changes</button>
+<button class="cancel-profile-btn hidden" id="cancelProfileBtn">Cancel</button>
+    </div>
+  </section>
+  <section class="Feedback-section">
+  <h2>We Value Your Feedback</h2>
+
+  <div class="feedback-content">
+    
+    <!-- Image Section -->
+    <div class="feedback-image">
+      <img src="/data/feedback.png" alt="Feedback">
+    </div> 
+
+    <!-- Feedback Form -->
+    <form class="feedback-form" id="feedbackForm">
+      <textarea id="userReview" placeholder="Write your feedback here..." required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+  </div>
+</section>
+</aside>
+<section class="about-section">
+  <div class="about-container">
+    <button class="about-close" id="aboutClose">&times;</button>
+    <h1 class="title">Who Are We?</h1>
+    <p class="subtitle">Built by students. Powered by clarity.</p>
+
+    <div class="content-block">
+      <p>
+        <strong>ARIVUM</strong> is a growing platform created <strong>by students, for students</strong>.
+        We understand the stress before exams, the endless searching, and the confusion that comes with preparation.
+      </p>
+    </div>
+
+    <div class="content-block">
+      <h3>📚 What We Do</h3>
+      <ul>
+        <li>Previous Year Questions (PYQs)</li>
+        <li>Important Questions</li>
+        <li>Content for multiple Colleges</li>
+      </ul>
+      <p class="highlight">All essential study material — in one place.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>🎯 Our Goal</h3>
+      <p>
+        To help students focus more on <strong>understanding concepts</strong>
+        and less on wasting time searching for materials.
+      </p>
+    </div>
+
+    <div class="content-block">
+      <h3>🌱 Growing With You</h3>
+      <p>
+        Arivum is still evolving. Soon, we'll introduce more resources,
+        smarter tools, and interactive features to support every learner.
+      </p>
+    </div>
+  </div>
+</section>
+<div class="section-container">
+    <h2>Creators</h2>
+    <div class="creators-section" id="creatorsSection">
+     <div class="profiles-container" id="profilesContainer">
+     </div>
+     <div class="creator-info" id="creatorInfo">
+      <div class="creator-name" id="creatorName"></div>
+      <div class="creator-course" id="creatorCourse"></div>
+     </div><button class="reset-btn" id="resetBtn">Back</button>
+    </div>
+   </div>
+    <script type="module" src="js/dashboard.js"></script>
+    <script type="module" src="js/firebase.js"></script>
+    <script type="module" src="js/feedback.js"></script>
+    <script type="module" src="js/auth.js"></script>
+    <script type="module" src="js/profiledrawer.js"></script>
+    <script type="module" src="js/Profile.js">
+    </script>
+    <script type="module" src="js/logic.js" defer></script>
+</body>
+
+</html>
+
+
+
+
+
+

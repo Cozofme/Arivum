@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Question Paper</title>
+  <link rel="stylesheet" href="css/question-paper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+</head>
+<body>
+
+<header class="topbar">
+  <button onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+  <h3 id="pageTitle">Question Paper</h3>
+</header>
+
+<main id="questionsContainer"></main>
+<div id="imageModal" class="image-modal">
+  <span class="close-btn" onclick="closeImage()">×</span>
+
+  <!-- Desktop navigation -->
+  <button class="nav-btn left" onclick="prevImage()">❮</button>
+  <img id="modalImage" />
+  <button class="nav-btn right" onclick="nextImage()">❯</button>
+</div>
+<!-- Video Modal -->
+<div id="videoModal" class="image-modal">
+  <span class="close-btn" onclick="closeVideo()">×</span>
+  <iframe
+    id="videoFrame"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="js/question-paper.js"></script>
+</body>
+</html>

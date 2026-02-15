@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Papers</title>
+  <link rel="stylesheet" href="css/question-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!-- Top Bar -->
+<header class="topbar">
+  <button id="backBtn"><i class="fa-solid fa-arrow-left"></i></button>
+  <input type="search" id="searchInput" placeholder="Search paper name..." />
+  <button id="filterBtn">☰</button>
+</header>
+
+<!-- Slide Filter Panel -->
+<aside class="filter-panel" id="filterPanel">
+  <h3>Filters</h3>
+
+  <label>University</label>
+<select id="universitySelect">
+  <option value="">All</option>
+</select>
+
+<label>Course</label>
+<select id="courseSelect">
+  <option value="">All</option>
+</select>
+
+<label>Year</label>
+<select id="yearSelect">
+  <option value="">All</option>
+</select>
+
+<label>Semester</label>
+<select id="semesterSelect">
+  <option value="">All</option>
+</select>
+
+<label>Subject</label>
+<select id="subjectSelect">
+  <option value="">All</option>
+</select>
+  <button id="applyFilter">Apply</button>
+</aside>
+
+<!-- Content -->
+<main id="content"></main>
+
+<script src="js/Pyq.js">
+</script>
+</body>
+</html>

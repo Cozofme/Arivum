@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/imp.css">
+        <title>Question Paper</title>
+
+    </head>
+    <body>
+
+        <div class="topbar">
+            <button id="backBtn">⬅ Back</button>
+        </div>
+
+        <div class="container">
+            <h1 id="subjectTitle"></h1>
+            <p id="metaInfo"></p>
+
+            <div class="question-box">
+                <ul id="questionList"></ul>
+            </div>
+        </div>
+
+        <script>
+    /* =========================
+       BACK BUTTON
+    ========================= */
+    document.getElementById("backBtn").addEventListener("click", () => {
+      window.history.back();
+    });
+
+    /* =========================
+       GET URL PARAMS
+    ========================= */
+    // Get query parameters
+const urlParams = new URLSearchParams(window.location.search);
+const semester = urlParams.get("semester");
+const subject = urlParams.get("subject");
+
+// DOM elements
+const subjectTitle = document.getElementById("subjectTitle");
+const metaInfo = document.getElementById("metaInfo");
+const questionList = document.getElementById("questionList");
+
+// Fetch JSON
+fetch("data/papers.json")
+  .then(res => res.json())
+  .then(data => {
+    const semesters = data.semesters;
+
+    let targetSubject = null;
+
+    // Loop through semesters to find the subject
+    for (let semKey in semesters) {
+      if (semesters[semKey][subject]) {
+        targetSubject = semesters[semKey][subject];
+        break;
+      }
+    }
+
+    if (!targetSubject) {
+      questionList.innerHTML = "<li>No questions found.</li>";
+      return;
+    }
+
+    // Set title
+    subjectTitle.textContent = targetSubject.subjectname;
+
+    // Optional meta info
+    metaInfo.textContent = `Course: ${data.course} | University: ${data.university}`;
+
+    // Render questions
+    const questions = targetSubject.questions;
+    questionList.innerHTML = ""; // Clear previous
+    Object.values(questions).forEach((questionText, index) => {
+      const li = document.createElement("li");
+
+      // ✅ THIS IS WHERE YOUR LINE GOES
+      li.innerHTML = `
+        <div class="q-no">${index + 1}</div>
+        <div>${questionText}</div>
+      `;
+
+      questionList.appendChild(li);
+    });
+  })
+  .catch(err => console.error("Error loading JSON:", err));
+  </script>
+
+    </body>
+</html>

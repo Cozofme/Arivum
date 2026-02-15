@@ -1,0 +1,257 @@
+:root {
+  --bg-purple: rgb(71, 0, 151);
+  
+  --text-color: #e6edf3;
+  --nav-bg: #161B22B5;
+  --hover-bg: #00827FDE;
+  --section-bg: #00827F87;
+  --resulth2: #ffb347;
+  --box: 0 4px 25px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY BACKGROUND */
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(200deg, var(--bg-purple), #000,#000,#000);
+  background-attachment: fixed;
+  color: var(--text-color);
+}
+
+/* ---------------- TOP BAR ---------------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: var(--nav-bg);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+
+.topbar button {
+  background: var(--hover-bg);
+  color: var(--text-color);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.topbar button:hover {
+  background: #00b3a0;
+  transform: translateY(-1px);
+}
+
+.topbar input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-color);
+}
+
+.topbar input::placeholder {
+  color: #c7c7c7;
+}
+
+/* ---------------- FILTER PANEL ---------------- */
+.filter-panel {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 270px;
+  height: 100%;
+  background: var(--section-bg);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+  box-shadow: var(--box);
+  transition: right 0.3s ease;
+  z-index: 200;
+}
+
+.filter-panel.open {
+  right: 0;
+}
+
+.filter-panel h3 {
+  color: var(--resulth2);
+  margin-bottom: 10px;
+}
+
+.filter-panel label {
+  display: block;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.filter-panel select,
+.filter-panel button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-color);
+  outline: none;
+}
+
+.filter-panel button {
+  margin-top: 18px;
+  background: var(--hover-bg);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-panel button:hover {
+  background: #00b3a0;
+}
+
+/* ---------------- MAIN CONTENT ---------------- */
+main {
+  padding: 18px;
+}
+
+/* YEAR GROUP */
+.year-group {
+  margin-bottom: 30px;
+}
+
+.year-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--resulth2);
+  margin-bottom: 12px;
+}
+
+/* ---------------- PAPER CARD ---------------- */
+.paper {
+  background:
+    linear-gradient(
+      135deg,
+      var(--paper-color, rgba(0,0,0,0.65)),
+      rgba(0,0,0,0.75) 65%
+    );
+  border-left: 4px solid var(--paper-border, var(--hover-bg));
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: var(--box);
+  transition: transform 0.25s, background 0.25s;
+}
+
+.paper:hover {
+  transform: translateY(-4px);
+}
+
+.paper strong {
+  font-size: 15px;
+}
+
+.paper span {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #d0d0d0;
+}
+.value{
+  color: #000;
+}
+.semester-title {
+  display: block;
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 24px 0 14px;
+  padding: 8px 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #c7d2fe;
+  position: relative;
+}
+.semester-title::before,
+.semester-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 38%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.4)
+  );
+}
+
+.semester-title::before {
+  left: 0;
+}
+
+.semester-title::after {
+  right: 0;
+  transform: scaleX(-1);
+}
+/* ---------------- DESKTOP GRID ---------------- */
+@media (min-width: 768px) {
+  .year-group {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+  }
+  
+  .year-title {
+    grid-column: 1 / -1;
+  }
+  
+  .paper {
+    margin-bottom: 0;
+  }
+}
+
+/* ---------------- LARGE SCREENS ---------------- */
+@media (min-width: 1200px) {
+  .year-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------------- MOBILE TWEAKS ---------------- */
+@media (max-width: 480px) {
+  .topbar button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  
+  .year-title {
+    font-size: 20px;
+  }
+  .semester-title {
+    font-size: 0.8rem;
+    margin: 18px 0 12px;
+  }
+
+  .semester-title::before,
+  .semester-title::after {
+    width: 30%;
+  }
+}
