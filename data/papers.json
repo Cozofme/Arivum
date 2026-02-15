@@ -1,0 +1,224 @@
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semesters": {
+    "semester_1": {
+      "C1": {
+        "subjectname": "Programming Fundamentals using C/C++",
+        "questions": {
+          "q1": "Explain data types, variables and constants in C/C++.",
+          "q2": "Explain operators and expressions with examples.",
+          "q3": "Explain conditional statements in C/C++.",
+          "q4": "Explain looping statements and compare them.",
+          "q5": "Explain arrays and their types.",
+          "q6": "Explain functions and their types.",
+          "q7": "Explain call by value and call by reference.",
+          "q8": "Explain pointers and pointer arithmetic.",
+          "q9": "Explain structures and unions.",
+          "q10": "Explain file handling in C/C++.",
+          "q11": "Explain dynamic memory allocation.",
+          "q12": "Explain object oriented programming concepts.",
+          "q13": "Explain classes and objects in C++.",
+          "q14": "Explain constructors and destructors.",
+          "q15": "Explain inheritance in C++.",
+          "q16": "Explain polymorphism with example.",
+          "q17": "Explain function overloading.",
+          "q18": "Explain operator overloading.",
+          "q19": "Explain exception handling in C++.",
+          "q20": "Compare C and C++."
+        }
+      },
+      "C2": {
+        "subjectname": "Computer System Architecture",
+        "questions": {
+          "q1": "Explain Von Neumann architecture with diagram.",
+          "q2": "Explain input and output devices.",
+          "q3": "Explain memory hierarchy.",
+          "q4": "Explain primary and secondary memory.",
+          "q5": "Explain cache memory.",
+          "q6": "Explain number systems and conversions.",
+          "q7": "Explain binary arithmetic.",
+          "q8": "Explain Boolean algebra laws.",
+          "q9": "Explain logic gates with truth tables.",
+          "q10": "Explain half adder and full adder.",
+          "q11": "Explain multiplexers and demultiplexers.",
+          "q12": "Explain flip-flops.",
+          "q13": "Explain registers and counters.",
+          "q14": "Explain instruction cycle.",
+          "q15": "Explain 8086 architecture.",
+          "q16": "Explain addressing modes.",
+          "q17": "Explain assembly language programming.",
+          "q18": "Explain pipelining.",
+          "q19": "Explain Flynn’s classification.",
+          "q20": "Differentiate system software and application software."
+        }
+      }
+    },
+
+    "semester_2": {
+      "C3": {
+        "subjectname": "Data Structures",
+        "questions": {
+          "q1": "Explain data structures and their classification.",
+          "q2": "Explain time and space complexity.",
+          "q3": "Explain array operations.",
+          "q4": "Explain searching techniques.",
+          "q5": "Explain sorting algorithms.",
+          "q6": "Explain stack and its operations.",
+          "q7": "Explain applications of stack.",
+          "q8": "Explain queue and its types.",
+          "q9": "Explain circular queue.",
+          "q10": "Explain linked list.",
+          "q11": "Explain singly linked list operations.",
+          "q12": "Explain doubly linked list.",
+          "q13": "Explain circular linked list.",
+          "q14": "Explain tree and its types.",
+          "q15": "Explain binary search tree.",
+          "q16": "Explain graph representation.",
+          "q17": "Explain BFS algorithm.",
+          "q18": "Explain DFS algorithm.",
+          "q19": "Explain minimum spanning tree.",
+          "q20": "Explain shortest path algorithms."
+        }
+      },
+      "C4": {
+        "subjectname": "Discrete Structures",
+        "questions": {
+          "q1": "Explain sets and operations on sets.",
+          "q2": "Explain relations and their properties.",
+          "q3": "Explain functions and types of functions.",
+          "q4": "Explain propositional logic.",
+          "q5": "Explain truth tables.",
+          "q6": "Explain logical equivalence.",
+          "q7": "Explain inference rules.",
+          "q8": "Explain mathematical induction.",
+          "q9": "Explain permutation and combination.",
+          "q10": "Explain pigeonhole principle.",
+          "q11": "Explain recurrence relations.",
+          "q12": "Explain asymptotic notations.",
+          "q13": "Explain graphs and types.",
+          "q14": "Explain Euler and Hamilton paths.",
+          "q15": "Explain trees and properties.",
+          "q16": "Explain spanning tree.",
+          "q17": "Explain planar graphs.",
+          "q18": "Explain graph coloring.",
+          "q19": "Explain Boolean functions.",
+          "q20": "Explain applications of discrete mathematics."
+        }
+      }
+    },
+
+    "semester_3": {
+      "C5": {
+        "subjectname": "Java Programming",
+        "questions": {
+          "q1": "Explain features of Java.",
+          "q2": "Explain JVM architecture.",
+          "q3": "Explain classes and objects.",
+          "q4": "Explain constructors.",
+          "q5": "Explain inheritance.",
+          "q6": "Explain polymorphism.",
+          "q7": "Explain abstraction and encapsulation.",
+          "q8": "Explain packages.",
+          "q9": "Explain exception handling.",
+          "q10": "Explain multithreading.",
+          "q11": "Explain synchronization.",
+          "q12": "Explain string handling.",
+          "q13": "Explain file handling.",
+          "q14": "Explain Java I/O streams.",
+          "q15": "Explain AWT.",
+          "q16": "Explain Swing.",
+          "q17": "Explain event handling.",
+          "q18": "Explain applet life cycle.",
+          "q19": "Explain JDBC.",
+          "q20": "Explain Java security."
+        }
+      }
+    },
+
+    "semester_4": {
+      "C8": {
+        "subjectname": "Theory of Computation",
+        "questions": {
+          "q1": "Explain finite automata.",
+          "q2": "Explain DFA and NFA.",
+          "q3": "Explain regular expressions.",
+          "q4": "Explain closure properties.",
+          "q5": "Explain pumping lemma.",
+          "q6": "Explain context free grammar.",
+          "q7": "Explain parse tree.",
+          "q8": "Explain pushdown automata.",
+          "q9": "Explain Turing machine.",
+          "q10": "Explain types of Turing machine.",
+          "q11": "Explain halting problem.",
+          "q12": "Explain decidability.",
+          "q13": "Explain Chomsky hierarchy.",
+          "q14": "Explain recursive languages.",
+          "q15": "Explain recursively enumerable languages.",
+          "q16": "Explain computational complexity.",
+          "q17": "Explain P problems.",
+          "q18": "Explain NP problems.",
+          "q19": "Explain NP-complete problems.",
+          "q20": "Explain reduction techniques."
+        }
+      }
+    },
+
+    "semester_5": {
+      "DSE1": {
+        "subjectname": "Cyber Security",
+        "questions": {
+          "q1": "Explain cyber security.",
+          "q2": "Explain cyber threats.",
+          "q3": "Explain malware.",
+          "q4": "Explain phishing attacks.",
+          "q5": "Explain social engineering.",
+          "q6": "Explain cryptography.",
+          "q7": "Explain symmetric encryption.",
+          "q8": "Explain asymmetric encryption.",
+          "q9": "Explain digital signature.",
+          "q10": "Explain firewall.",
+          "q11": "Explain IDS and IPS.",
+          "q12": "Explain network security.",
+          "q13": "Explain cyber crime.",
+          "q14": "Explain IT Act 2000.",
+          "q15": "Explain cyber forensics.",
+          "q16": "Explain cloud security.",
+          "q17": "Explain web security threats.",
+          "q18": "Explain risk management.",
+          "q19": "Explain cyber terrorism.",
+          "q20": "Explain future trends in cyber security."
+        }
+      }
+    },
+
+    "semester_6": {
+      "C13": {
+        "subjectname": "Artificial Intelligence / Android",
+        "questions": {
+          "q1": "Explain artificial intelligence.",
+          "q2": "Explain intelligent agents.",
+          "q3": "Explain search algorithms.",
+          "q4": "Explain knowledge representation.",
+          "q5": "Explain expert systems.",
+          "q6": "Explain Android architecture.",
+          "q7": "Explain activity life cycle.",
+          "q8": "Explain intents.",
+          "q9": "Explain Android UI components.",
+          "q10": "Explain data storage in Android.",
+          "q11": "Explain Android security.",
+          "q12": "Explain sensors in Android.",
+          "q13": "Explain cloud computing.",
+          "q14": "Explain service models.",
+          "q15": "Explain deployment models.",
+          "q16": "Explain virtualization.",
+          "q17": "Explain cloud security.",
+          "q18": "Explain computer graphics pipeline.",
+          "q19": "Explain 2D transformations.",
+          "q20": "Explain applications of AI."
+        }
+      }
+    }
+  }
+}

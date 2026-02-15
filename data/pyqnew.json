@@ -1,0 +1,746 @@
+[
+{
+  "university": "Ranchi University",
+    "course": "bsc IT",
+    "semester": "1",
+    "subject": "C1",
+    "subjectname": "Programming Fundamentals using C/C++",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C1",
+    "subjectname": "Programming Fundamentals using C/C++",
+    "year": "2022"
+  },
+
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C1",
+    "description": "Programming Fundamentals using C/C++",
+    "year": "2023"
+  },
+
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C1",
+    "description": "Programming Fundamentals using C/C++",
+    "year": "2024"
+  },
+
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C1",
+    "description": "Programming Fundamentals using C/C++",
+    "year": "2025"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C2",
+    "description": "Computer System Architecture",
+    "year": "2021"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C2",
+    "description": "Computer System Architecture",
+    "year": "2022"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C2",
+    "description": "Computer System Architecture",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C2",
+    "description": "Computer System Architecture",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "1",
+    "subject": "C2",
+    "description": "Computer System Architecture",
+    "year": "2025"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C3",
+    "description": "Data Structures with C",
+    "year": "2021"
+  },
+
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C3",
+    "description": "Data Structures with C",
+    "year": "2022"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C3",
+    "description": "Data Structures with C",
+    "year": "2023"
+  },
+
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C3",
+    "description": "Data Structures with C",
+    "year": "2024"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C3",
+    "description": "Data Structures with C",
+    "year": "2025"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C4",
+    "description": "Discrete Structures",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C4",
+    "description": "Discrete Structures",
+    "year": "2022"
+  },
+
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C4",
+    "description": "Discrete Structures",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C4",
+    "description": "Discrete Structures",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "2",
+    "subject": "C4",
+    "description": "Discrete Structures",
+    "year": "2025"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C5",
+    "description": "Programming in JAVA",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C5",
+    "description": "Programming in JAVA",
+    "year": "2022"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C5",
+    "description": "Programming in JAVA",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C5",
+    "description": "Programming in JAVA",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C5",
+    "description": "Programming in JAVA",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C6",
+    "description": "Operating Systems",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C6",
+    "description": "Operating Systems",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C6",
+    "description": "Operating Systems",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C6",
+    "description": "Operating Systems",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C6",
+    "description": "Operating Systems",
+    "year": "2025"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C7",
+    "description": "Computer Networks",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C7",
+    "description": "Computer Networks",
+    "year": "2022"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C7",
+    "description": "Computer Networks",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C7",
+    "description": "Computer Networks",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "3",
+    "subject": "C7",
+    "description": "Computer Networks",
+    "year": "2025"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C8",
+    "description": "Theory of Computation",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C8",
+    "description": "Theory of Computation",
+    "year": "2022"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C8",
+    "description": "Theory of Computation",
+    "year": "2023"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C8",
+    "description": "Theory of Computation",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C8",
+    "description": "Theory of Computation",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C9",
+    "description": "Visual Basic .NET",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C9",
+    "description": "Visual Basic .NET",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C9",
+    "description": "Visual Basic .NET",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C9",
+    "description": "Visual Basic .NET",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C9",
+    "description": "Visual Basic .NET",
+    "year": "2025"
+  },
+ 
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C10",
+    "description": "Database Management Systems",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C10",
+    "description": "Database Management Systems",
+    "year": "2022"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C10",
+    "description": "Database Management Systems",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C10",
+    "description": "Database Management Systems",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "4",
+    "subject": "C10",
+    "description": "Database Management Systems",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C11",
+    "description": "Internet Technologies",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C11",
+    "description": "Internet Technologies",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C11",
+    "description": "Internet Technologies",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C11",
+    "description": "Internet Technologies",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C11",
+    "description": "Internet Technologies",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C12",
+    "description": "Software Engineering",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C12",
+    "description": "Software Engineering",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C12",
+    "description": "Software Engineering",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C12",
+    "description": "Software Engineering",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "C12",
+    "description": "Software Engineering",
+    "year": "2025"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C13",
+    "description": "Artificial Intelligence and Android Programming",
+    "year": "2021"
+  }, {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C13",
+    "description": "Artificial Intelligence and Android Programming",
+    "year": "2022"
+  }, {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C13",
+    "description": "Artificial Intelligence and Android Programming",
+    "year": "2023"
+  }, {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C13",
+    "description": "Artificial Intelligence and Android Programming",
+    "year": "2024"
+  }, {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C13",
+    "description": "Artificial Intelligence and Android Programming",
+    "year": "2025"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C14",
+    "description": "Computer Graphics with Flash",
+    "year": "2021"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C14",
+    "description": "Computer Graphics with Flash",
+    "year": "2022"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C14",
+    "description": "Computer Graphics with Flash",
+    "year": "2023"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C14",
+    "description": "Computer Graphics with Flash",
+    "year": "2024"
+  },
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "C14",
+    "description": "Computer Graphics with Flash",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE1",
+    "description": "Information Security and Cyber Law",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE1",
+    "description": "Information Security and Cyber Law",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE1",
+    "description": "Information Security and Cyber Law",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE1",
+    "description": "Information Security and Cyber Law",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE1",
+    "description": "Information Security and Cyber Law",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE2",
+    "description": "Programming in Python",
+    "year": "2021"
+  },
+   {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE2",
+    "description": "Programming in Python",
+    "year": "2022"
+  },
+ 
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE2",
+    "description": "Programming in Python",
+    "year": "2023"
+  },
+ 
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE2",
+    "description": "Programming in Python",
+    "year": "2024"
+  },
+ 
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "5",
+    "subject": "DSE2",
+    "description": "Programming in Python",
+    "year": "2025"
+  },
+ 
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE3",
+    "description": "Cloud Computing",
+    "year": "2021"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE3",
+    "description": "Cloud Computing",
+    "year": "2022"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE3",
+    "description": "Cloud Computing",
+    "year": "2023"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE3",
+    "description": "Cloud Computing",
+    "year": "2024"
+  },
+{
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE3",
+    "description": "Cloud Computing",
+    "year": "2025"
+  },
+
+  {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE4",
+    "description": "Project Work / Dissertation",
+    "year": "2021"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE4",
+    "description": "Project Work / Dissertation",
+    "year": "2022"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE4",
+    "description": "Project Work / Dissertation",
+    "year": "2023"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE4",
+    "description": "Project Work / Dissertation",
+    "year": "2024"
+  },
+ {
+    "university": "ranchi",
+    "course": "bsc",
+    "semester": "6",
+    "subject": "DSE4",
+    "description": "Project Work / Dissertation",
+    "year": "2025"
+  }
+  
+]

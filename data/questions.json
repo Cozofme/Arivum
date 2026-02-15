@@ -1,0 +1,419 @@
+[
+  {
+    "year": "2022-25",
+    "university": "Ranchi University",
+    "course": "Bsc IT",
+    "semester": "5",
+    "subject": "DSE1",
+    "subjectname": "Cyber Security",
+    "questions": {
+      "images": [
+        "images/Semester 5/DSE1/DSE1 a.jpg",
+        "images/Semester 5/DSE1/DSE1 b.jpg",
+        "images/Semester 5/DSE1/DSE1 c.jpg",
+        "images/Semester 5/DSE1/DSE1 d.jpg"
+      ],
+      "videos": [
+        "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+        "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+        "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+      ]
+    }
+  },
+  {
+    "year": "2022-25",
+    "university": "Ranchi University",
+    "course": "Bsc IT",
+    "semester": "5",
+    "subject": "DSE2",
+    "subjectname": "Python Programming",
+    "questions": {
+      "images": [
+        "images/Semester 5/DSE2/DSE2 a.jpg",
+        "images/Semester 5/DSE2/DSE2 b.jpg",
+        "images/Semester 5/DSE2/DSE2 c.jpg",
+        "images/Semester 5/DSE2/DSE2 d.jpg"
+      ],
+      "videos": [
+        "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+        "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+        "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+      ]
+    }
+  },
+  {
+    "year": "2022-25",
+    "university": "Ranchi University",
+    "course": "Bsc IT",
+    "semester": "5",
+    "subject": "CC11",
+    "subjectname": "Internet Technologies",
+    "questions": {
+      "images": [
+        "images/Semester 5/CC11/CC11 a.jpg",
+        "images/Semester 5/CC11/CC11 b.jpg",
+        "images/Semester 5/CC11/CC11 c.jpg",
+        "images/Semester 5/CC11/CC11 d.jpg"
+      ],
+      "videos": [
+        "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+        "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+        "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+      ]
+    }
+  },
+  {
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "5",
+  "subject": "CC12",
+  "subjectname": "Software Engeneering",
+  "questions": {
+    "images": [
+      "images/Semester 5/CC12/CC12 a.jpg",
+      "images/Semester 5/CC12/CC12 b.jpg",
+      "images/Semester 5/CC12/CC12 c.jpg",
+      "images/Semester 5/CC12/CC12 d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "CC8",
+  "subjectname": "Theory of Computation",
+  "questions": {
+    "images": [
+      "images/Semester 4/CC8/CC8a.jpg",
+      "images/Semester 4/CC8/CC8b.jpg",
+      "images/Semester 4/CC8/CC8c.jpg",
+      "images/Semester 4/CC8/CC8d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "CC9",
+  "subjectname": "Visual Basic",
+  "questions": {
+    "images": [
+      "images/Semester 4/CC9/CC9a.jpg",
+      "images/Semester 4/CC9/CC9b.jpg",
+      "images/Semester 4/CC9/CC9c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "CC10",
+  "subjectname": "Database Management System",
+  "questions": {
+    "images": [
+      "images/Semester 4/CC10/CC10a.jpg",
+      "images/Semester 4/CC10/CC10b.jpg",
+      "images/Semester 4/CC10/CC10c.jpg",
+      "images/Semester 4/CC10/CC10d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "GE4",
+  "subjectname": "Math",
+  "questions": {
+    "images": [
+      "images/Semester 4/math/GE4a.jpg",
+      "images/Semester 4/math/GE4b.jpg",
+      "images/Semester 4/math/GE4c.jpg",
+      "images/Semester 4/math/GE4d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "GE4",
+  "subjectname": "Physics",
+  "questions": {
+    "images": [
+      "images/Semester 4/physics/GE4a.jpg",
+      "images/Semester 4/physics/GE4b.jpg",
+      "images/Semester 4/physics/GE4c.jpg",
+      "images/Semester 4/physics/GE4d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "4",
+  "subject": "SEC2",
+  "subjectname": "MATLAB",
+  "questions": {
+    "images": [
+      "images/Semester 4/sec2/sec2a.jpg",
+      "images/Semester 4/sec2/sec2b.jpg",
+      "images/Semester 4/sec2/sec2c.jpg",
+      "images/Semester 4/sec2/sec2d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "3",
+  "subject": "CC5",
+  "subjectname": "Programing in JAVA",
+  "questions": {
+    "images": [
+      "images/Semester 3/CC5/CC5a.jpg",
+      "images/Semester 3/CC5/CC5b.jpg",
+      "images/Semester 3/CC5/CC5c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "3",
+  "subject": "CC6",
+  "subjectname": "Operating System",
+  "questions": {
+    "images": [
+      "images/Semester 3/CC6/CC6a.jpg",
+      "images/Semester 3/CC6/CC6b.jpg",
+      "images/Semester 3/CC6/CC6c.jpg",
+      "images/Semester 3/CC6/CC6d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "3",
+  "subject": "CC7",
+  "subjectname": "Computer Networks",
+  "questions": {
+    "images": [
+      "images/Semester 3/CC7/CC7a.jpg",
+      "images/Semester 3/CC7/CC7b.jpg",
+      "images/Semester 3/CC7/CC7c.jpg",
+      "images/Semester 3/CC7/CC7d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "3",
+  "subject": "GE3",
+  "subjectname": "Math",
+  "questions": {
+    "images": [
+      "images/Semester 3/GE3/GE3a.jpg",
+      "images/Semester 3/GE3/GE3b.jpg",
+      "images/Semester 3/GE3/GE3c.jpg",
+      "images/Semester 3/GE3/GE3d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "3",
+  "subject": "GE3",
+  "subjectname": "Physics",
+  "questions": {
+    "images": [
+      "images/Semester 3/GE3/GE3a.jpg",
+      "images/Semester 3/GE3/GE3b.jpg",
+      "images/Semester 3/GE3/GE3c.jpg",
+      "images/Semester 3/GE3/GE3d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "1",
+  "subject": "AECC1",
+  "subjectname": "English Comunication",
+  "questions": {
+    "images": [
+      "images/Semester 1/AECC1/AECC1 a.jpg",
+      "images/Semester 1/AECC1/AECC1 b.jpg",
+      "images/Semester 1/AECC1/AECC1 c.jpg",
+      "images/Semester 1/AECC1/AECC1 d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "1",
+  "subject": "CC1",
+  "subjectname": "Programing Fundamentals using C/C++",
+  "questions": {
+    "images": [
+      "images/Semester 1/CC1/CC1 a.jpg",
+      "images/Semester 1/CC1/CC1 b.jpg",
+      "images/Semester 1/CC1/CC1 c.jpg",
+      "images/Semester 1/CC1/CC1 d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "1",
+  "subject": "CC2",
+  "subjectname": "Programing Fundamentals using C/C++",
+  "questions": {
+    "images": [
+      "images/Semester 1/CC2/CC2 a.jpg",
+      "images/Semester 1/CC2/CC2 b.jpg",
+      "images/Semester 1/CC2/CC2 c.jpg",
+      "images/Semester 1/CC2/CC2 d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "1",
+  "subject": "GE1",
+  "subjectname": "Math",
+  "questions": {
+    "images": [
+      "images/Semester 1/math/GE1a.jpg",
+      "images/Semester 1/math/GE1b.jpg",
+      "images/Semester 1/math/GE1c.jpg",
+      "images/Semester 1/math/GE1d.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+},
+{
+  "year": "2022-25",
+  "university": "Ranchi University",
+  "course": "Bsc IT",
+  "semester": "1",
+  "subject": "GE1",
+  "subjectname": "Physics",
+  "questions": {
+    "images": [
+      "images/Semester 1/physics/GE1a.jpg",
+      "images/Semester 1/physics/GE1b.jpg",
+      "images/Semester 1/physics/GE1c.jpg"
+    ],
+    "videos": [
+      "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
+      "https://youtu.be/0TjPSSYtKsQ?si=ctyl-kn0qVGjBV0E",
+      "https://youtu.be/9V26_rRH5QE?si=zivjp-baYS3DHOGr"
+    ]
+  }
+}
+]
