@@ -1272,6 +1272,10 @@ border: none;
 .cancel-profile-btn:hover {
   background: #444;
 }
+.hidden {
+  display: none;
+}
+
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
   .profile-drawer {
