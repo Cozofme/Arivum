@@ -19,6 +19,7 @@ const authOverlay = document.getElementById("authOverlay");
 const authTitle = document.getElementById("authTitle");
 const authBtn = document.getElementById("authBtn");
 const toggleAuth = document.getElementById("toggleAuth");
+const authForm = document.getElementById("authForm"); // ✅ NEW
 
 const signupFields = document.getElementById("signupFields");
 const confirmPassword = document.getElementById("confirmPassword");
@@ -27,7 +28,20 @@ const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 
+// Toast
+const toast = document.getElementById("toast");
+
 let isLogin = false;
+
+// ================== TOAST ==================
+function showToast(message, type = "success") {
+  toast.textContent = message;
+  toast.className = `toast show ${type}`;
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3500);
+}
 
 // ================== TOGGLE LOGIN / SIGNUP ==================
 toggleAuth.onclick = () => {
@@ -36,18 +50,20 @@ toggleAuth.onclick = () => {
   signupFields.style.display = isLogin ? "none" : "block";
   confirmPassword.style.display = isLogin ? "none" : "block";
 
-  authTitle.textContent = isLogin ? "Login to ARIVUM" : "Join your ARIVUM";
+  authTitle.textContent = isLogin ? "Login to ARIVUM" : "Join ARIVUM";
   authBtn.textContent = isLogin ? "Login" : "Sign Up";
   toggleAuth.textContent = isLogin ? "Sign Up" : "Login";
 };
 
-// ================== AUTH ACTION ==================
-authBtn.onclick = async () => {
+// ================== AUTH SUBMIT (ENTER + CLICK) ==================
+authForm.addEventListener("submit", async (e) => {
+  e.preventDefault(); // 🔴 important
+
   const email = emailInput.value.trim();
   const password = passwordInput.value.trim();
 
   if (!email || !password) {
-    alert("Email and password required");
+    showToast("⚠️ Email and password are required", "login");
     return;
   }
 
@@ -56,6 +72,11 @@ authBtn.onclick = async () => {
     if (isLogin) {
       const res = await signInWithEmailAndPassword(auth, email, password);
       await loadUser(res.user.uid);
+
+      showToast(
+        "👋 Welcome back!\nLet’s continue your learning journey 🚀",
+        "login"
+      );
       return;
     }
 
@@ -64,18 +85,17 @@ authBtn.onclick = async () => {
     const confirm = confirmPassword.value.trim();
 
     if (!name) {
-      alert("Name is required");
+      showToast("⚠️ Please enter your name", "login");
       return;
     }
 
     if (password !== confirm) {
-      alert("Passwords do not match");
+      showToast("❌ Passwords do not match", "login");
       return;
     }
 
     const res = await createUserWithEmailAndPassword(auth, email, password);
 
-    // ✅ IMPORTANT: initialize all profile fields
     const userData = {
       uid: res.user.uid,
       name,
@@ -91,18 +111,23 @@ authBtn.onclick = async () => {
     localStorage.setItem("arivumUser", JSON.stringify(userData));
     applyUser(userData);
 
+    showToast(
+      `🎉 Signup Successful!\nWelcome to ARIVUM, ${name} 💙`,
+      "success"
+    );
+
   } catch (err) {
     console.error(err);
 
     if (err.code === "auth/email-already-in-use") {
-      alert("Email already registered. Please login.");
+      showToast("⚠️ Email already registered. Please login.", "login");
     } else if (err.code === "auth/invalid-credential") {
-      alert("Invalid email or password");
+      showToast("❌ Invalid email or password", "login");
     } else {
-      alert(err.message);
+      showToast(err.message, "login");
     }
   }
-};
+});
 
 // ================== LOAD USER ==================
 async function loadUser(uid) {
