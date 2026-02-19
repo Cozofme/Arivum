@@ -96,7 +96,7 @@ setInterval(updateDate, 60000);
 // QUOTES
 // ================================
 const fallbackQuotes = [
-  { q: "Padh le bhai aur kitna motivation chahiye tujhe", a: "Team StudyBuddy" },
+  { q: "Padh le bhai aur kitna motivation chahiye tujhe", a: "Team Arivum" },
   { q: "Small steps every day lead to big changes.", a: "Anonymous" },
   { q: "Learning never exhausts the mind.", a: "Leonardo da Vinci" },
   { q: "Code is not just written, it is crafted.", a: "Developer Wisdom" },
