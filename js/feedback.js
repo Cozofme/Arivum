@@ -1,15 +1,14 @@
+// feedback.js
 import { db } from "./firebase.js";
 import {
   collection,
   addDoc,
-  serverTimestamp,
-  onSnapshot,
-  query,
-  orderBy,
-  getDocs
+  getDocs,
+  onSnapshot
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-// ================= COLORS =================
+/* ================== CONFIG ================== */
+
 const gradientColors = [
   "#C2185B87",
   "#C6282887",
@@ -18,12 +17,11 @@ const gradientColors = [
   "#FDD83587"
 ];
 
-// ================= DEFAULT REVIEWS =================
 const defaultReviews = [
   {
     name: "Aman Kumar",
     course: "BSc IT",
-    review: "StudyBuddy helped me a lot when I moved to a new city for studies."
+    review: "Arivum helped me a lot when I moved to a new city for studies."
   },
   {
     name: "Sneha Singh",
@@ -33,72 +31,99 @@ const defaultReviews = [
   {
     name: "Rahul Verma",
     course: "MBA",
-    review: "Perfect platform for finding notes, friends, and guidance."
+    review: "Perfect platform for finding PYQs and important questions."
   }
 ];
 
-// ================= FIRESTORE REF =================
+/* ================== FIRESTORE ================== */
+
 const reviewsRef = collection(db, "reviews");
 
-// ================= PRELOAD DEFAULT REVIEWS =================
-async function preloadReviews() {
-  const snap = await getDocs(reviewsRef);
-  if (!snap.empty) return;
+/* ================== PRELOAD DEFAULT REVIEWS ================== */
 
-  for (const r of defaultReviews) {
-    await addDoc(reviewsRef, {
-      ...r,
-      createdAt: serverTimestamp()
-    });
+async function preloadReviews() {
+  try {
+    const snap = await getDocs(reviewsRef);
+    if (!snap.empty) return;
+
+    for (const r of defaultReviews) {
+      await addDoc(reviewsRef, {
+        ...r,
+        createdAt: new Date()
+      });
+    }
+  } catch (err) {
+    console.error("Preload reviews failed:", err);
   }
 }
 
-// ================= LOAD REVIEWS (REALTIME) =================
+/* ================== LOAD REVIEWS (REALTIME) ================== */
+
 function loadReviewsRealtime() {
   const track = document.getElementById("reviewTrack");
-  if (!track) return;
 
-  const q = query(reviewsRef, orderBy("createdAt", "desc"));
+  if (!track) {
+    console.warn("reviewTrack element not found");
+    return;
+  }
 
-  onSnapshot(q, (snapshot) => {
-    track.innerHTML = "";
+  onSnapshot(
+    reviewsRef,
+    (snapshot) => {
+      track.innerHTML = "";
 
-    let reviews = [];
-    snapshot.forEach(doc => reviews.push(doc.data()));
-
-    if (reviews.length === 0) {
-      track.innerHTML = `
-        <div class="review-card" style="background:linear-gradient(135deg,#333,#000)">
-          <h3>No reviews yet</h3>
-          <p>Be the first to share your feedback 🌟</p>
-        </div>
-      `;
-      return;
-    }
-
-    // Duplicate for marquee effect
-    for (let i = 0; i < 2; i++) {
-      reviews.forEach((r, index) => {
-        const color = gradientColors[index % gradientColors.length];
-        track.innerHTML += `
+      if (snapshot.empty) {
+        track.innerHTML = `
           <div class="review-card"
-            style="background: linear-gradient(135deg, ${color}, #000);">
-            <h3>${r.name} <span>• ${r.course}</span></h3>
-            <p>${r.review}</p>
+            style="background:linear-gradient(135deg,#333,#000)">
+            <h3>No reviews yet</h3>
+            <p>Be the first to share your feedback 🌟</p>
           </div>
         `;
-      });
+        return;
+      }
+
+      // Convert docs → data + safe sorting
+      const reviews = snapshot.docs
+        .map(doc => doc.data())
+        .sort((a, b) => {
+          const ta = a.createdAt?.toMillis?.() || new Date(a.createdAt || 0).getTime();
+          const tb = b.createdAt?.toMillis?.() || new Date(b.createdAt || 0).getTime();
+          return tb - ta;
+        });
+
+      // Duplicate for marquee effect
+      for (let loop = 0; loop < 2; loop++) {
+        reviews.forEach((r, index) => {
+          const color = gradientColors[index % gradientColors.length];
+
+          track.innerHTML += `
+            <div class="review-card"
+              style="background:linear-gradient(135deg,${color},#000)">
+              <h3>${r.name || "Anonymous"} <span>• ${r.course || "Student"}</span></h3>
+              <p>${r.review || ""}</p>
+            </div>
+          `;
+        });
+      }
+    },
+    (error) => {
+      console.error("Firestore listener error:", error);
     }
-  });
+  );
 }
 
-// ================= SUBMIT REVIEW =================
+/* ================== SUBMIT FEEDBACK ================== */
+
 document.addEventListener("DOMContentLoaded", async () => {
   const form = document.getElementById("feedbackForm");
   const input = document.getElementById("userReview");
   const button = form?.querySelector("button");
 
-  if (!form || !input || !button) return;
+  if (!form || !input || !button) {
+    console.warn("Feedback form elements missing");
+    return;
+  }
 
   await preloadReviews();
   loadReviewsRealtime();
@@ -112,12 +137,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!reviewText) return;
 
     const user = JSON.parse(localStorage.getItem("arivumUser"));
-    if (!user) {
+
+    if (!user || !user.uid) {
       alert("Please login to submit feedback");
       return;
     }
 
-    // Sending effect
+    // Sending animation
     button.disabled = true;
     let dots = 0;
     button.textContent = "Sending";
@@ -129,15 +155,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
       await addDoc(reviewsRef, {
-        name: user.name,
-        course: user.college || user.semester || "Student",
+        uid: user.uid,
+        name: user.name || "Anonymous",
+        course:
+          user.course ||
+          user.college ||
+          user.semester ||
+          "Student",
         review: reviewText,
-        createdAt: serverTimestamp()
+        createdAt: new Date()
       });
 
       form.reset();
     } catch (err) {
-      alert("Failed to submit review");
+      console.error("Submit review failed:", err);
+      alert("Failed to submit feedback");
     }
 
     clearInterval(interval);
