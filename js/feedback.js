@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const reviewText = input.value.trim();
     if (!reviewText) return;
 
-    const user = JSON.parse(localStorage.getItem("studybuddyUser"));
+    const user = JSON.parse(localStorage.getItem("arivumUser"));
     if (!user) {
       alert("Please login to submit feedback");
       return;
