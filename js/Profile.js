@@ -3,21 +3,21 @@ const creators = [
     name: "Insha Kaynat",
     course: "Bsc IT",
     roll: "22BS62100374",
-    color: "#FF6B6B",
+    color: "#FF8A8A",
     image: "images/C.png"
   },
   {
     name: "Rajesh Das",
     course: "Bsc IT",
     roll: "22BS62100374",
-    color: "#4ECDC4",
+    color: "#9f9419",
     image: "images/A.png"
   },
   {
     name: "Rehan Khan",
     course: "Bsc IT",
     roll: "22BS62100381",
-    color: "#A78BFA",
+    color: "#F4E6C8",
     image: "images/B.png"
   },
   {
