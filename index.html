@@ -127,32 +127,43 @@
   <div class="marquee-track" id="reviewTrack">
   </div>
 </div>
-  
+  <div id="toast" class="toast"></div>
      <!-- Auth Modal -->
 <div class="auth-overlay" id="authOverlay">
   <div class="auth-box">
 
     <h2 id="authTitle">Join your ARIVUM</h2>
 
-    <!-- Signup Fields -->
-    <div id="signupFields">
-      <input type="text" id="name" placeholder="Full Name">
-    </div>
+    <!-- ✅ FORM START -->
+    <form id="authForm">
 
-    <!-- Common -->
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
+      <!-- Signup Fields -->
+      <div id="signupFields">
+        <input type="text" id="name" placeholder="Full Name">
+      </div>
 
-    <!-- Signup only -->
-    <input type="password" id="confirmPassword" placeholder="Confirm Password">
-    <button id="authBtn" type="button">Sign Up</button>
+      <!-- Common -->
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+
+      <!-- Signup only -->
+      <input type="password" id="confirmPassword" placeholder="Confirm Password">
+
+      <!-- ✅ SUBMIT BUTTON -->
+      <button id="authBtn" type="submit">Sign Up</button>
+
+    </form>
+    <!-- ✅ FORM END -->
+
     <p class="toggle-text">
       Already have an account?
       <span id="toggleAuth">Login</span>
     </p>
+
     <p class="auth-note">
       Your data is safely stored for personalization
     </p>
+
   </div>
 </div>
   <!-- Profile Drawer -->
@@ -200,12 +211,6 @@
   <h2>We Value Your Feedback</h2>
 
   <div class="feedback-content">
-    
-    <!-- Image Section -->
-    <div class="feedback-image">
-      <img src="/data/feedback.png" alt="Feedback">
-    </div> 
-
     <!-- Feedback Form -->
     <form class="feedback-form" id="feedbackForm">
       <textarea id="userReview" placeholder="Write your feedback here..." required></textarea>
@@ -278,6 +283,7 @@
 </body>
 
 </html>
+
 
 
 
