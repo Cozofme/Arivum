@@ -96,37 +96,56 @@ setInterval(updateDate, 60000);
 // QUOTES
 // ================================
 const fallbackQuotes = [
-  { q: "Padh le bhai aur kitna motivation chahiye tujhe", a: "Team Arivum" },
-  { q: "Small steps every day lead to big changes.", a: "Anonymous" },
+  { q: "Education is the most powerful weapon which you can use to change the world.", a: "Nelson Mandela" },
+  { q: "Live as if you were to die tomorrow. Learn as if you were to live forever.", a: "Mahatma Gandhi" },
   { q: "Learning never exhausts the mind.", a: "Leonardo da Vinci" },
-  { q: "Code is not just written, it is crafted.", a: "Developer Wisdom" },
-  { q: "Dreams don’t work unless you do.", a: "John C. Maxwell" }
+  { q: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.", a: "A. P. J. Abdul Kalam" },
+  { q: "An investment in knowledge pays the best interest.", a: "Benjamin Franklin" },
+  { q: "It does not matter how slowly you go as long as you do not stop.", a: "Confucius" },
+  { q: "The roots of education are bitter, but the fruit is sweet.", a: "Aristotle" },
+  { q: "The expert in anything was once a beginner.", a: "Helen Hayes" },
+  { q: "Believe you can and you're halfway there.", a: "Theodore Roosevelt" },
+  { q: "Today a reader, tomorrow a leader.", a: "Margaret Fuller" },
+  { q: "Padhai karo doston , reel toh baad me bhi dekhi ja sakti hai.", a: "Team Arivum" },
+  { q: "Success is the result of preparation, hard work, and learning from failure.", a: "Colin Powell" },
+  { q: "Your education is a dress rehearsal for a life that is yours to lead.", a: "Nora Ephron" },
+  { q: "If you think education is expensive, try ignorance.", a: "Derek Bok" }
 ];
 
-function showFallbackQuote() {
-  const quoteBox = document.getElementById("quoteBox");
+
+const quoteBox = document.getElementById("quoteBox");
+
+// Show fallback instantly
+function showInstantQuote() {
   if (!quoteBox) return;
   const quote = fallbackQuotes[Math.floor(Math.random() * fallbackQuotes.length)];
   quoteBox.innerHTML = `${quote.q} — <b>${quote.a}</b>`;
 }
 
-async function loadQuote() {
-  const quoteBox = document.getElementById("quoteBox");
-  if (!quoteBox) return;
-  
+// Fetch API quote silently
+async function fetchApiQuote() {
   try {
     const res = await fetch(
       "https://api.allorigins.win/get?url=" +
       encodeURIComponent("https://zenquotes.io/api/random")
     );
+
     const data = await res.json();
     const parsed = JSON.parse(data.contents);
+
+    // Replace only when API succeeds
     quoteBox.innerHTML = `${parsed[0].q} — <b>${parsed[0].a}</b>`;
-  } catch {
-    showFallbackQuote();
+  } catch (e) {
+    // Do nothing → fallback already shown
   }
 }
-loadQuote();
+
+// ================================
+// INIT
+// ================================
+showInstantQuote();   // no loading state
+fetchApiQuote();      // background update
+
 
 // ================================
 // TO-DO LIST
