@@ -279,10 +279,10 @@
   "subjectname": "Math",
   "questions": {
     "images": [
-      "images/Semester 3/GE3/GE3a.jpg",
-      "images/Semester 3/GE3/GE3b.jpg",
-      "images/Semester 3/GE3/GE3c.jpg",
-      "images/Semester 3/GE3/GE3d.jpg"
+      "images/Semester 3/math/GE3a.jpg",
+      "images/Semester 3/math/GE3b.jpg",
+      "images/Semester 3/math/GE3c.jpg",
+      "images/Semester 3/math/GE3d.jpg"
     ],
     "videos": [
       "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
@@ -300,10 +300,10 @@
   "subjectname": "Physics",
   "questions": {
     "images": [
-      "images/Semester 3/GE3/GE3a.jpg",
-      "images/Semester 3/GE3/GE3b.jpg",
-      "images/Semester 3/GE3/GE3c.jpg",
-      "images/Semester 3/GE3/GE3d.jpg"
+      "images/Semester 3/physics/GE3a.jpg",
+      "images/Semester 3/physics/GE3b.jpg",
+      "images/Semester 3/physics/GE3c.jpg",
+      "images/Semester 3/physics/GE3d.jpg"
     ],
     "videos": [
       "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
