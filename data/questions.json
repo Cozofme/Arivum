@@ -465,10 +465,10 @@
   "subjectname": "math",
   "questions": {
     "images": [
-      "images/Semester 2/GE2/GE2a.jpg",
-      "images/Semester 2/GE2/GE2b.jpg",
-      "images/Semester 2/GE2/GE2c.jpg",
-      "images/Semester 2/GE2/GE2d.jpg"
+      "images/Semester 2/math/GE2a.jpg",
+      "images/Semester 2/math/GE2b.jpg",
+      "images/Semester 2/math/GE2c.jpg",
+      "images/Semester 2/math/GE2d.jpg"
     ],
     "videos": [
       "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
@@ -483,12 +483,12 @@
   "course": "Bsc IT",
   "semester": "2",
   "subject": "GE2",
-  "subjectname": "physics",
+  "subjectname": "Physics",
   "questions": {
     "images": [
-      "images/Semester 2/GE2/GE2a.jpg",
-      "images/Semester 2/GE2/GE2b.jpg",
-      "images/Semester 2/GE2/GE2c.jpg"
+      "images/Semester 2/physics/GE2a.jpg",
+      "images/Semester 2/physics/GE2b.jpg",
+      "images/Semester 2/physics/GE2c.jpg"
     ],
     "videos": [
       "https://youtu.be/4ZfvsioUzu8?si=8i_UCBEBQYlcvpuV",
