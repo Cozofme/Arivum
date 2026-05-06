@@ -462,7 +462,7 @@
   "course": "Bsc IT",
   "semester": "2",
   "subject": "GE2",
-  "subjectname": "Math",
+  "subjectname": "math",
   "questions": {
     "images": [
       "images/Semester 2/GE2/GE2a.jpg",
@@ -483,7 +483,7 @@
   "course": "Bsc IT",
   "semester": "2",
   "subject": "GE2",
-  "subjectname": "Physics",
+  "subjectname": "physics",
   "questions": {
     "images": [
       "images/Semester 2/GE2/GE2a.jpg",
